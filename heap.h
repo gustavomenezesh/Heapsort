@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <math.h>
 
-
 struct binary_heap{
     int size_heap;
     int length;
