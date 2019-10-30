@@ -52,7 +52,7 @@ void max_heapify(struct binary_heap* A, int i){
 void build_maxheap(struct binary_heap* A){
 	
 	int i;
-    A->size_heap = A->length;
+    	A->size_heap = A->length;
 	for (i = (int)floor(A->length/2)-1; i >= 0; i--){
 		
 		max_heapify(A, i);
